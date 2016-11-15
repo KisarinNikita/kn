@@ -1,0 +1,3283 @@
+/* Colors for my Website */
+@gray_light: #d6bbba;
+@cream: #efe1d5;
+@dark_cream: #f7e9df;
+
+@be_light: #e2d6cc;
+@light: #efe1d5;
+@blue: #8fa5c5;
+@blue_dark: #7d91aa;
+@blue_light: #9eb9d8;
+@white: #ffffff;
+@black: #000000;
+@gray: #4d4d4d;
+@gray_light:#cccccc;
+@yellow: #ebcd4d;
+
+
+@1265:    ~"(max-width: 1265px)";
+@1200:    ~"(max-width: 1200px)";
+@1057:    ~"(max-width: 1057px)";
+@992:    ~"(max-width: 992px)";
+@832:    ~"(max-width: 832px)";
+@767:    ~"(max-width: 767px)";
+@520:    ~"(max-width: 520px)";
+@350:    ~"(max-width: 350px)";
+
+
+
+@font-face{
+    font-family: "NerisThin";
+    src: url("../fonts/NerisThin/NerisThin.eot");
+    src: url("../fonts/NerisThin/NerisThin.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/NerisThin/NerisThin.woff") format("woff"),
+    url("../fonts/NerisThin/NerisThin.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "NerisLight"; */
+@font-face {
+    font-family: "NerisLight";
+    src: url("../fonts/NerisLight/NerisLight.eot");
+    src: url("../fonts/NerisLight/NerisLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/NerisLight/NerisLight.woff") format("woff"),
+    url("../fonts/NerisLight/NerisLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "NerisSemiBold"; */
+@font-face {
+    font-family: "NerisSemiBold";
+    src: url("../fonts/NerisSemiBold/NerisSemiBold.eot");
+    src: url("../fonts/NerisSemiBold/NerisSemiBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/NerisSemiBold/NerisSemiBold.woff") format("woff"),
+    url("../fonts/NerisSemiBold/NerisSemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "NerisBoldItalic"; */
+@font-face {
+    font-family: "NerisBoldItalic";
+    src: url("../fonts/NerisBoldItalic/NerisBoldItalic.eot");
+    src: url("../fonts/NerisBoldItalic/NerisBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/NerisBoldItalic/NerisBoldItalic.woff") format("woff"),
+    url("../fonts/NerisBoldItalic/NerisBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "NerisLightItalic"; */
+@font-face {
+    font-family: "NerisLightItalic";
+    src: url("../fonts/NerisLightItalic/NerisLightItalic.eot");
+    src: url("../fonts/NerisLightItalic/NerisLightItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/NerisLightItalic/NerisLightItalic.woff") format("woff"),
+    url("../fonts/NerisLightItalic/NerisLightItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "NerisThinItalic"; */
+@font-face {
+    font-family: "NerisThinItalic";
+    src: url("../fonts/NerisThinItalic/NerisThinItalic.eot");
+    src: url("../fonts/NerisThinItalic/NerisThinItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/NerisThinItalic/NerisThinItalic.woff") format("woff"),
+    url("../fonts/NerisThinItalic/NerisThinItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "NerisSemiBoldItalic"; */
+@font-face {
+    font-family: "NerisSemiBoldItalic";
+    src: url("../fonts/NerisSemiBoldItalic/NerisSemiBoldItalic.eot");
+    src: url("../fonts/NerisSemiBoldItalic/NerisSemiBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/NerisSemiBoldItalic/NerisSemiBoldItalic.woff") format("woff"),
+    url("../fonts/NerisSemiBoldItalic/NerisSemiBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+p {
+   max-height: 999999px;
+    font-family: "NerisLight";
+}
+
+
+h2{
+    font-family: "NerisSemiBold";
+}
+
+
+.transition(@time){
+	transition: all @time linear;
+	-moz-transition: all @time linear;
+	-webkit-transition: all @time linear;
+	-o-transition: all @time linear;
+}
+
+.container{
+	letter-spacing: 0.5px;
+    font-family: "NerisLight";
+	position: relative;
+}
+
+.box{
+	width: 1200px;
+	position: relative;
+
+	@media@1200{
+		width: 992px;
+	}
+}
+
+
+.row{
+	margin-left: 0px;
+}
+
+
+a:hover{
+	text-decoration: none;
+}
+
+a:focus{
+	text-decoration: none;
+}
+
+.main-menu{
+	padding-top: 25px;
+	height: 115px;
+	margin-bottom: 0px;
+	font-family: "NerisLight";
+	padding-right: 0px;
+
+	div{
+	}
+
+		.icons-menu{
+			text-align: center;
+			padding: 0px;
+			margin-top: 15px;
+
+			img{
+				height: 35px;
+			}
+
+			a{
+				outline: none;
+			}
+		}
+
+	input {
+		outline: none;
+		width: 100%;
+		height: 35px;
+		line-height: 35px;
+		border: 2px solid @gray_light;
+		border-radius: 10px;
+		padding-left: 15px;
+		font-size: 15px;
+		color:@gray;
+		margin-left: 15px;
+		width: 615px;
+
+		@media@1200{
+			width: 550px;
+		}
+	}
+
+
+.dropdown-menu .sub-menu {
+	left: 100%;
+	position: absolute;
+	top: 0;
+	visibility: hidden;
+	margin-top: -1px;
+}
+
+.dropdown-menu li:hover .sub-menu {
+    visibility: visible;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
+    margin-top: 0;
+}
+
+.navbar .sub-menu:before {
+    border-bottom: 7px solid transparent;
+    border-left: none;
+    border-right: 7px solid rgba(0, 0, 0, 0.2);
+    border-top: 7px solid transparent;
+    left: -7px;
+    top: 10px;
+}
+.navbar .sub-menu:after {
+    border-top: 6px solid transparent;
+    border-left: none;
+    border-right: 6px solid #fff;
+    border-bottom: 6px solid transparent;
+    left: 10px;
+    top: 11px;
+    left: -6px;
+}
+
+.nav{
+	@media@1200{
+		width: 650px;
+	}
+}
+
+
+.nav > li > a {
+	position: relative;
+	display: block;
+	padding: 12px 15px;
+	color: @gray;
+	text-transform: uppercase;
+	font-size: 15px;
+
+	&:hover{
+		background: none;
+	}
+
+	&:focus{
+		background: none;
+	}
+
+	@media@1200{
+		position: relative;
+		display: block;
+		padding: 15px 12px;
+		color: #4d4d4d;
+		text-transform: uppercase;
+		font-size: 14px;
+	}
+
+	.carret{
+		margin-left: 7px;
+		height: 8px;
+		margin-top: -3px;
+	}
+}
+
+.dropdown-menu {
+	box-shadow: none;
+	border: none;
+	border-bottom: 2px solid #1a1a1a;
+	border-radius: 0px;
+	background: rgba(255, 255, 255, 0.95);
+	margin-left: -40px;
+	padding-bottom: 5px;
+	padding-top: 10px;
+
+	.carret-left{
+		margin-left: 10px;
+		height: 8px;
+		margin-top: 7px;
+		position: absolute;
+		right: 10px;
+	}
+
+	.menu-icon{
+		margin-right: 15px;
+		height: 18px;
+		margin-top: -5px;
+	}
+
+	li{
+		margin-bottom: 7px;
+		padding-right: 10px;
+		position: relative;
+	}
+
+	li a{
+		text-transform: uppercase;
+		color:#9e9e9e;
+		font-size: 14px;
+		font-family: "NerisSemiBold";
+		padding-left: 15px;
+	}
+}
+
+	.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+		background: none;
+		color:#4d4d4d;
+	}
+}
+
+.main-menu .dropdown-menu .sub-menu{
+	margin-left: 0px;
+	margin-top: -10px;
+}
+
+.main-image{
+	padding: 0px;
+	position: relative;
+	height: 400px;
+	background: @be_light;
+
+	@media@1200{
+		height: 332px;
+	}
+
+	div{
+		height: 100%;
+	}
+
+	.main-img{
+		width: 100%;
+		position: absolute;
+		top:0px;
+		right: 0px;
+	}
+
+	.shadow-img{
+		height: 100%;
+		position: absolute;
+		left: 0px;
+		z-index: 10;
+        top:0px;
+	}
+
+	h2{
+		color:@gray;
+		font-size: 30px;
+		width: 200%;
+		margin-left: 32%;
+		z-index: 10;
+		margin-top: 100px;
+		position: absolute;
+
+		@media@1200{
+			margin-top: 60px;
+		}
+	}
+
+	p{
+		color: #4d4d4d;
+		font-size: 18px;
+		line-height: 20px;
+		margin-top: 185px;
+		margin-left: 35%;
+
+		@media@1200{
+		    margin-top: 140px;
+		}
+	}
+}
+
+.main-block1{
+	padding: 0px;
+	position: relative;
+	height: 250px;
+
+	@media@1200{
+		height: 220px;
+		background: @blue;
+	}
+
+	@media@992{
+		height: 100%;
+		padding-bottom: 65px;
+	}
+
+
+	.bg{
+		width: 100%;
+		position: absolute;
+		left: 0px;
+
+		@media@1200{
+			bottom: -10px;
+		}
+	}
+
+	.bigboy{
+		bottom: 0px;
+		left: 10%;
+		width: 250px;
+		position: absolute;
+
+		@media@1200{
+			width: 210px;
+			margin-bottom: -10px;
+		}
+
+	}
+
+	h2{
+		color:@light;
+		font-size: 22px;
+		z-index: 10;
+		margin-top: 45px;
+		font-weight: 300;
+
+		@media@1200{
+			margin-top: 35px;
+		}
+	}
+
+	p{
+		color:@light;
+  		font-family: "NerisThin";
+		font-size: 16px;
+		margin-bottom: 25px;
+	}
+
+	a{
+		padding: 10px 20px 14px 20px;
+		background: @blue_dark;
+		color:@white;
+  		font-family: "NerisThin";
+		border-radius: 5px;
+		font-size: 16px;
+		.transition(200ms);
+
+		&:hover{
+			.transition(200ms);
+			background: @blue_light;
+		}
+	}
+}
+
+.main-block2{
+	padding: 0px;
+	position: relative;
+	height: 250px;
+
+	@media@1200{
+		height: 220px;
+		background: #e2d6cc;
+	}
+
+	@media@992{
+		height: 100%;
+		padding-bottom: 65px;
+	}
+
+
+	img{
+		width: 100%;
+		position: absolute;
+		left: 0px;
+
+		@media@1200{
+			bottom: -10px;
+		}
+
+	}
+
+	h2{
+		color:@gray;
+		font-size: 22px;
+		z-index: 10;
+		margin-top: 45px;
+		font-weight: 300;
+
+		@media@1200{
+			margin-top: 35px;
+		}
+	}
+
+	p{
+		color:@gray;
+		font-family: 'NerisThin';
+		font-size: 16px;
+		margin-bottom: 25px;
+	}
+
+	a{
+		padding: 10px 20px 14px 20px;
+		background: #ccc2ba;
+		color:@white;
+  		font-family: "NerisThin";
+		border-radius: 5px;
+		font-size: 16px;
+		.transition(200ms);
+
+		&:hover{
+			.transition(200ms);
+			background: #eaded6;
+		}
+	}
+}
+
+
+.main-block3{
+	padding: 0px;
+	position: relative;
+	height: 250px;
+
+	@media@1200{
+		height: 220px;
+		background: #d6bbba;
+	}
+
+	@media@992{
+		height: 100%;
+		padding-bottom: 65px;
+	}
+
+	img{
+		width: 100%;
+		position: absolute;
+		left: 0px;
+
+		@media@1200{
+			bottom: -10px;
+		}
+	}
+
+	h2{
+		color:@cream;
+		font-size: 22px;
+		z-index: 10;
+		margin-top: 45px;
+		font-weight: 300;
+
+		@media@1200{
+			margin-top: 35px;
+		}
+	}
+
+	p{
+		color:@cream;
+		font-family: 'NerisThin';
+		font-size: 16px;
+		margin-bottom: 25px;
+	}
+
+	a{
+		padding: 10px 20px 14px 20px;
+		background: #bfa9a9;
+		color:@white;
+  		font-family: "NerisThin";
+		border-radius: 5px;
+		font-size: 16px;
+		.transition(200ms);
+
+		&:hover{
+			.transition(200ms);
+			background: #e0c6c6;
+		}
+	}
+}
+
+.main-block4{
+	padding: 0px;
+	position: relative;
+	height: 100%;
+	padding-bottom: 75px;
+
+
+	img{
+		width: 100%;
+		position: absolute;
+		left: 0px;
+		margin-top: 5px;
+		margin-bottom: 50px;
+	}
+
+		h2{
+			color:@gray;
+			font-size: 22px;
+			z-index: 10;
+			margin-top: 115px;
+			font-weight: 300;
+			text-transform: uppercase;
+		    font-family: "NerisSemiBold";
+			text-align: center;
+
+			@media@1200{
+				margin-top: 35px;
+			}
+		}
+
+		p{
+			font-family: "NerisThin";
+			font-size: 16px;
+			color:@gray;
+			margin-bottom: 20px;
+			text-align: center;
+		}
+
+		a{
+			padding: 10px 20px 14px 20px;
+			background: transparent;
+			border: 1px solid @gray;
+			color:@gray;
+			font-family: "NerisThin";
+			border-radius: 5px;
+			font-size: 16px;
+			font-weight: 900;
+			left: 50%;
+			position: absolute;
+			margin-left: -90px;
+			.transition(200ms);
+
+			&:hover{
+				background:#eaded6;
+				.transition(200ms);
+			}
+		}
+}
+
+
+.main-slider{
+	margin-top: 10px;
+
+	h2{
+		color:@gray;
+		font-size: 18px;
+		margin-bottom: 25px;
+		margin-top: 20px;
+		margin-left: 35px;
+		text-transform: uppercase;
+    	font-family: "NerisSemiBold";
+
+		@media@1200{
+			margin-top: 30px;
+		}
+	}
+
+	.slider{
+
+		.devider{
+			position: absolute;
+			border-right: 1px solid @gray_light;
+			right: 0px;
+			top:0%;
+			height: 80%;
+		}
+
+		.slider-hover{
+			outline: none;
+			color: #333333;
+			position: absolute;
+			background: #fff;
+			width: 100%;
+			height: 100%;
+			top:0px;
+			opacity: 0.85;
+			display: none;
+			left: 0px;
+			.transition(200ms);
+
+			a{
+				height: 50%;
+				width: 100%;
+				float: left;
+				outline: none;
+
+				.go_staff{
+					width: 70%;
+					margin-left: 15%;
+					margin-top: 7%;
+				}
+
+				.add_bag{
+					width: 50%;
+					margin-left: 25%;
+					margin-top: 13%;
+				}
+			}
+		}
+
+
+		.slide-item{
+			outline: none;
+			position: relative;
+			.transition(200ms);
+
+
+			&:hover .slider-hover{
+				display: inline;
+				.transition(200ms);
+			}
+		}
+
+		img{
+			width: 70%;
+			margin-left: 15%;
+		}
+
+		p{
+			text-align: center;
+			font-size: 16px;
+			height: 21px;
+			overflow: hidden;
+			color:@gray;
+			margin-top: 0px;
+			margin-bottom: 0px;
+    		font-family: "NerisSemiBold";
+
+			span{
+				margin-top:5px;
+				font-size: 14px;
+			    font-family: "NerisThin";
+			}
+		}
+
+		label{
+			color:@yellow;
+			font-size: 20px;
+    		font-family: "NerisSemiBold";
+			text-align: center;
+			width: 100%;
+			margin-bottom: 20px;
+			cursor: pointer;
+			font-weight: 300;
+
+			span{
+				font-family: "NerisThin";
+				text-transform: uppercase;
+				font-size: 14px;
+			}
+		}
+	}
+}
+
+.slick-prev{
+	background: url(../images/left-slide.svg) no-repeat center center;;
+	height: 50px;
+	width:50px;
+	position: absolute;
+	left: -54px;
+	top:30%;
+	background-color: #fff;
+	border: none;
+	outline: none;
+
+	@media@1265{
+		display: none;
+	}
+}
+
+.slick-next{
+	background: url(../images/right-slide.svg) no-repeat center center;
+	height: 50px;
+	width:50px;
+	position: absolute;
+	right: -54px;
+	top:30%;
+	background-color: #fff;
+	border: none;
+	outline: none;
+
+	@media@1265{
+		display: none;
+	}
+}
+
+
+.cat-header{
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	padding: 0px;
+
+	img{
+		position: absolute;
+		width: 100%;
+		left: 0px;
+		top:0px;
+
+	}
+
+	h1{
+		font-size: 50px;
+		color:@yellow;
+		height: 200px;
+		margin: 0px;
+		font-family: "NerisSemiBold";
+		width: 100%;
+		text-align: left;
+		text-transform: uppercase;
+		margin-top: 35px;
+		position: relative;
+		margin-top: 120px;
+		padding-left: 25px;
+	}
+
+}
+
+.cat-menu{
+	padding-bottom: 25px;
+	background: rgba(226, 214, 204, 0.7);
+    padding: 0px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+	@media@1200{
+		padding-left: 0px;
+	}
+
+	.row{
+		margin-bottom: 20px;
+	}
+
+	div{
+		padding: 0px;
+		padding-left: 25px;
+		padding-right: 10px;
+
+	}
+
+		h3{
+			color:@gray;
+			text-transform: uppercase;
+			font-size: 15px;
+			margin-top: 0px;
+			font-family: "NerisSemiBold";
+			padding: 0px;
+			margin: 0px;
+			padding-left: 30px;
+			margin-bottom: 10px;
+			margin-top: 10px;
+			position: relative;
+			margin-top: 30px;
+
+			&:first-child{
+				margin-top: 0px;
+			}
+
+
+			span{
+				img{
+					width: 25px;
+					margin-left: -15px;
+					margin-left: 0px;
+					top: -3px;
+					margin-left: -5px;
+				}
+			}
+		}
+
+		li{
+			list-style: none;
+			margin-bottom: 3px;
+			margin-left: 30px;
+
+			i{
+				cursor: pointer;
+			}
+
+			a,i{
+				color:@gray;
+				font-size: 14px;
+
+				@media@992{
+					color:@gray;
+				}
+
+
+				&:hover{
+					text-decoration: underline;
+				}
+			}
+		}
+}
+
+.border-banner{
+	border-bottom:1px solid @blue;
+}
+
+.banner{
+	padding: 0px;
+	margin-top: 20px;
+	margin-bottom: 25px;
+
+
+	img{
+		width: 100%;
+		padding-top: 5px;
+		padding-bottom: 15px;
+
+		@media@1200{
+			margin-left: 0px;
+		}
+	}
+}
+
+.article{
+	padding: 0px;
+	height: 250px;
+	margin-bottom: 10px;
+
+	div{
+		padding: 0px;
+		background: @blue;
+		height: 100%;
+
+	}
+
+	img{
+		height: 100%;
+	}
+
+	h3{
+		color:#f4e1be;
+		font-size: 16px;
+		padding-left: 35px;
+		padding-right: 10px;
+    	font-family: "NerisSemiBold";
+		margin-top: 55px;
+	}
+
+	p{
+		color:#f4e1be;
+		font-size: 14px;
+		line-height: 17px;
+		padding-right: 15px;
+		padding-left: 35px;
+		max-height: 70px;
+		overflow: hidden;
+		padding-right: 10px;
+  		 font-family: "NerisThin";
+	}
+
+	a{
+		color:#fff;
+		font-size: 17px;
+		font-family: "NerisThin";
+		position: absolute;
+		right: 36px;
+		bottom: 25px;
+
+		&:hover{
+			text-decoration: underline;
+			.transition(200ms);
+
+		}
+
+	}
+}
+
+.article-title{
+    color: #4d4d4d;
+    font-size: 18px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    margin-left: 35px;
+    text-transform: uppercase;
+    font-family: NerisSemiBold;
+	margin-bottom: 35px;
+}
+
+.zero-padding{
+	padding: 0px;
+	position: relative;
+}
+
+.dots{
+	position: absolute;
+	width: 100%;
+}
+
+.breadcrumb{
+	background: none;
+
+	li{
+		a{
+			color:@gray;
+			font-size: 16px;
+  			font-family: "NerisThin";
+		}
+	}
+}
+
+
+.rating-wrapper {
+    position: relative;
+    left: 50%;
+    top: 0;
+    margin-left: -35px;
+    top: 0;
+    display: block;
+    height: 15px;
+    width: 90.5px;
+    background:url(/sites/all/themes/realty_theme/images/rating-svg.svg) no-repeat 1px 0;
+}
+
+.rating-wrapper .current-rating {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    width: 0;
+    height: 100%;
+    text-indent: 100px;
+    color: transparent;
+    overflow: hidden;
+    line-height: normal;
+    background:  url(/images/rating-svg.svg) no-repeat -93px 0;
+}
+
+.rating{
+	height: 15px;
+	margin-top: 5px;
+	margin-bottom: 3px;
+}
+
+.slick-slider{
+border: 1px solid white;
+}
+
+
+.container-modal-city {
+    width: 900px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 8%;
+	background: none;
+
+	h2{
+		font-size: 22px;
+		padding-top: 35px;
+		padding-left: 43px;
+	}
+}
+
+
+.modal-open .modal{
+	background: rgba(255,255,255,0.8);
+}
+
+.close-modal{
+	opacity:1;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 100px;
+	width: 100px;
+	outline: none;
+
+	img{
+		top:42.5px;
+		right: 42.5px;
+		width: 15px;
+		height: 15px;
+		position: absolute;
+		opacity: 1;
+	}
+}
+
+
+.modal-box{
+	margin-top: 50px;
+
+	div{
+		margin-bottom: 25px;
+	}
+
+	a{
+		color:#1a1a1a;
+		font-size: 18px;
+		padding: 14px 14px;
+
+
+		&:hover{
+			border: 1px solid #939393;
+			border-radius: 5px;
+		}
+
+		&:focus{
+			border: 1px solid #939393;
+			border-radius: 2px;
+		}
+	}
+}
+
+.product-head{
+    border-bottom:1px solid #EBCD4D;
+
+    h2{
+        font-size: 35px;
+        font-family: "NerisSemiBold";
+        color:@yellow;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+    }
+
+    ul{
+        padding-left: 0px;
+        margin-bottom: 20px;
+    }
+
+    ul li{
+        list-style: none;
+        display: inline;
+        margin-right: 25px;
+        font-size: 16px;
+        font-family: "NerisLight";
+
+        a{
+            color:#7F7F7F;
+        }
+    }
+
+     .active a{
+        color:#000;
+        font-weight: 900;
+    }
+
+    .dots{
+        position: absolute;
+        width: 100%;
+        top:0px;
+        left: 0px;
+        z-index: -5;
+        }
+
+}
+
+.product-mini-preview{
+    margin-bottom: 15px;
+    margin-top: 35px;
+    font-size: 16px;
+    font-family: "Neris";
+    z-index: 10;
+    border-bottom: 1px solid #7F7F7F;
+    height: 390px;
+
+    .product-mini-preview-text{
+        max-height: 230px;
+        overflow: hidden;
+
+        li{
+            font-family: "NerisLight";
+            list-style: none;
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+    }
+
+    .product-mini-rating{
+        height: 130px;
+        padding: 0px;
+
+        img{
+            height: 25px;
+            position: absolute;
+            bottom: 0px;
+        }
+
+        span{
+            position: absolute;
+            bottom: 0px;
+            right: 45px;
+            color: #7D91AA;
+            font-size: 16px;
+            font-family: "NerisLight";
+            bottom: 2px;
+            cursor: pointer;
+
+            @media@1200{
+                right: 10px;
+            }
+        }
+
+    }
+
+
+
+
+    a{
+        color:#7D91AA;
+        text-decoration: underline;
+    }
+
+
+}
+
+    .price-block{
+      label{
+          font-size: 30px;
+          color:@yellow;
+          font-family: 'NerisSemiBold';
+          text-align: right;
+          width: 100%;
+          cursor: pointer;
+
+          span{
+              font-family: "NerisLight";
+              font-family: 28px;
+              font-weight: 300;
+          }
+        }
+
+        p{
+            text-align: right;
+            font-size: 15px;
+            color:#7F7F7F;
+            margin-top: -5px;
+
+        }
+
+        .buy-botton{
+            padding: 8px 30px 12px 30px;
+            color:#333333;
+            font-size: 18px;
+            background: #EBCD4D;
+            text-decoration: none;
+            font-family: "NerisSemiBold";
+            position: absolute;
+            right: 15px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .add-comparison{
+            margin-top: 2px;
+            position: absolute;
+            right: 160px;
+            padding: 8px 9px 10px;
+            border-radius: 5px;
+            width: 55px;
+        }
+
+
+    }
+
+/*set a border on the images to prevent shifting*/
+ #gall img{border:2px solid white;}
+
+ /*Change the colour*/
+  #gall .active img{border:2px solid #EBCD4D !important;}
+
+.gallery-product{
+    padding-left: 100px;
+
+    @media@1200{
+        padding-left: 50px;
+    }
+
+    li{
+        display: block;
+        list-style: none;
+        margin-bottom: 10px;
+
+        img{
+            padding: 5px;
+
+        }
+    }
+
+    #gall{
+        position: absolute;
+        top:25px;
+        right: 25px;
+    }
+}
+
+.zoomContainer{
+    z-index: 100;
+
+}
+
+.other-offers{
+    border-bottom: 1px solid #7F7F7F;
+    padding-bottom: 75px;
+
+    h2{
+        color: #4d4d4d;
+        font-size: 18px;
+        margin-bottom: 25px;
+        margin-top: 20px;
+        margin-left: 35px;
+        text-transform: uppercase;
+        font-family: NerisSemiBold;
+    }
+
+    .row{
+        margin-bottom: 20px;
+        padding-left: 20px;
+    }
+
+    div{
+        height: 35px;
+        line-height: 30px;
+
+        p{
+            font-size: 16px;
+            color:#333333;
+            margin: 0px;
+           cursor: pointer;
+
+        }
+
+        label{
+            font-family: "NerisSemiBold";
+            margin: 0px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        a{
+            padding: 2px 10px 4px 10px;
+            border-radius: 5px;
+            font-size: 16px;
+            border: 1px solid #7D91AA;
+            color: #7D91AA;
+            top: -4px;
+            position: absolute;
+            font-family: Neris;
+            .transition(200ms);
+
+            &:hover{
+                background: #7D91AA;
+                color:#fff;
+
+            }
+
+        }
+
+        img{
+                margin-top: 0px;
+                cursor: pointer;
+        }
+    }
+
+    .all-offers{
+        width: 180px;
+        background: #7D91AA;
+        color:#fff;
+        font-size: 16px;
+        border-radius: 5px;
+        position: absolute;
+        bottom: 25px;
+        left: 50%;
+        margin-left: -90px;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+
+    }
+
+}
+
+.product-characteristics{
+    margin-bottom: 50px;
+    margin-top: 0px;
+    font-size: 16px;
+
+    table > tbody > tr > td{
+    padding: 5px;
+    border: none;
+    font-family: "Nerislight";
+    }
+
+    .table > tbody > tr > th{
+        border: none;
+        padding-top: 15px;
+        padding-bottom: 5px;
+        padding-left: 0px;
+        font-family: "NerisSemiBold";
+        font-weight: 300;
+    }
+
+}
+
+.price-block-fix{
+    label{
+        text-align: left;
+    }
+
+    p{
+        text-align: left;
+    }
+
+    .add-comparison{
+        right: 315px;
+
+        @media@1200{
+            right: 280px;
+        }
+    }
+
+    .buy-botton{
+        right:160px;
+
+        @media@1200{
+            right: 125px;
+        }
+    }
+}
+
+.additional-block{
+    margin-top: 65px;
+
+    h4{
+        font-family: "NerisSemiBold";
+    }
+
+    a{
+        width: 100%;
+        color:#333333;
+        font-size: 16px;
+        font-family: "NerisLight";
+
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+
+}
+
+.cd-filter{
+
+    h3{
+        padding-left: 15px;
+        color:#4d4d4d;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-family: "NerisLight";
+        margin-bottom: 0px;
+
+
+    }
+}
+
+.cd-gallery{
+
+    ul{
+        padding: 0px;
+    }
+    li{
+        div{
+            .prev{
+                width:80%;
+                margin-left: 10%;
+            }
+
+
+            h2{
+                font-size: 22px;
+                font-family: "NerisLight";
+                font-weight: 700;
+                width: 100%;
+                overflow: hidden;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+               text-decoration: underline;
+                padding: 0px;
+                margin: 0px;
+                margin-top: 5px;
+                margin-bottom: 5px;
+                color:#1a1a1a;
+
+                @media@1200{
+                    font-size: 19px;
+                }
+            }
+
+            h3{
+                font-size: 18px;
+                color:#7f7f7f;
+                font-family: "NerisLight";
+                width: 100%;
+                overflow: hidden;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                margin: 0px;
+                margin-top: 7px;
+                margin-bottom: 20px;
+
+                @media@1200{
+                    font-size: 16px;
+                }
+            }
+
+
+
+            p{
+                font-size: 16px;
+                color:#7f7f7f;
+                font-family: "NerisLight";
+
+
+                @media@1200{
+                    font-size: 14px;
+                }
+            }
+
+            .threeline{
+                overflow: hidden;
+                text-overflow: ellipsis;
+                -webkit-box-orient: vertical;
+                display: -webkit-box;
+                -webkit-line-clamp: 3;
+            }
+
+            h4{
+                text-transform: uppercase;
+                color:#8fa5c5;
+                margin-bottom: 15px;
+                margin-top: 12px;
+
+                @media@1200{
+                    margin-bottom: 10px;
+                    margin-top: 7px;
+                    font-size: 16px;
+                }
+
+                span{
+                    img{
+                        height: 18px;
+                        margin-left: 20px;
+                        margin-right: 20px;
+                        margin-top: -9px;
+
+                        @media@1200{
+                            margin-left: 7px;
+                            margin-right: 7px;
+                        }
+                    }
+
+                    font-size: 16px;
+                    color:#7f7f7f;
+                    text-transform: none;
+                }
+            }
+        }
+    }
+}
+
+.price-block-prices{
+    padding-top: 40px;
+
+    label{
+        padding-right: 15px;
+        margin-bottom: 10px;
+
+            @media@1200{
+                font-size: 30px;
+            }
+        }
+            @media@1200{
+                .buy-botton{
+                   padding: 10px 25px;
+            }
+        }
+
+        .add-comparison{
+            bottom: -52px;
+        }
+
+        .fix-bu-addb{
+            bottom: -105px;
+            right: 5px;
+        }
+
+
+        @media@1200{
+            .add-comparison{
+                right: 142px;
+                padding: 6px 7px 7px;
+                margin-top: 8px;
+        }
+    }
+}
+
+@media@1200{
+    .cd-tab-filter a{
+        font-size: 14px;
+        padding-left: 10px;
+    }
+}
+@media@1200{
+    .cd-tab-filter li{
+        font-size: 14px;
+    }
+}
+
+.cd-tab-filter-review{
+    width: 20%;
+    float: left;
+    position: relative;
+
+        h3{
+          padding-left: 15px;
+          color: #4d4d4d;
+          font-size: 18px;
+          text-transform: uppercase;
+          font-family: NerisLight;
+          margin-bottom: 5px;
+          margin-top: 30px;
+          margin-left: -15px;
+    }
+
+    ul{
+        margin-left: 0%;
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    li{
+        display: block;
+        text-align: left;
+        margin-bottom: 15px;
+
+        &:first-child{
+            margin-bottom: 0px;
+            a{
+                font-size: 20px;
+                margin-left: -4px;
+            }
+        }
+
+
+        a{
+            text-transform: none;
+            font-size: 17px;
+            color:#4d4d4d;
+        }
+    }
+
+    img{
+        width: 30px;
+        margin-right: 20px;
+
+    }
+
+}
+
+.cd-gallery-review{
+
+    li{
+        border-bottom: 1px solid #cccccc;
+        padding-bottom: 60px;
+
+        &:last-child{
+            border: none;
+        }
+
+        div{
+
+            .prev-rev{
+                width: 40%;
+                margin-left: 40%;
+                margin-top: 15%;
+                left: 0px;
+            }
+
+            .prev-pr{
+              width: 75%;
+              margin-left: 30%;
+              margin-top: 10%;
+              left: 0;
+            }
+
+            h2{
+                text-decoration: none;
+            }
+
+            label{
+                position: absolute;
+                right: 0px;
+                top: 15px;
+                color: #7F7F7F;
+                font-weight: 300;
+                font-size: 15px;
+            }
+
+            h4{
+                font-size: 15px;
+                color:#000;
+                font-family: "NerisLight";
+                font-weight: 700;
+                text-transform: none;
+                margin-bottom: 5px;
+            }
+            p{
+                font-size: 15px;
+
+            }
+
+            .iconlabel{
+                text-align: center;
+                margin-left: 30px;
+                margin-top: 5px;
+                font-size: 14px;
+                font-family: "NerisSemiBold";
+            }
+
+            .color5{
+                color: #EBCD4D;
+            }
+            .color4{
+                color:#DBBF49;
+            }
+            .color3{
+                color: #C6AD44;
+            }
+            .color2{
+                color: #9E8A38;
+            }
+            .color1{
+                color: #726429;
+            }
+        }
+
+    }
+
+}
+
+.table-ch{
+
+    .table > tbody > tr > th{
+        border: none;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 0px;
+    }
+
+    .table>tbody>tr>td{
+
+        border:1px solid black;
+    }
+
+    .devider{
+        width: 100px;
+        height: 1px;
+        border-bottom: 1px solid #cccccc;
+        padding-bottom: 10px;
+    }
+
+    img{
+        width: 100px;
+    }
+
+    h2{
+        margin: 0px;
+    }
+
+    label{
+        margin: 0px;
+    }
+}
+
+.section-review-block{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 180px;
+    display: table;
+    overflow: hidden;
+
+    p{
+        display: table-cell;
+        vertical-align: middle;
+    }
+}
+
+.section-review-blocks{
+    p{
+    margin-bottom: 25px;
+        padding-right: 15px;
+        height: 100px;
+        overflow: hidden;
+
+    }
+
+}
+.price-block-section{
+    padding-left: 35px;
+    padding-top: 5px;
+
+    p{
+        text-align: left;
+
+    }
+
+    h5{
+        font-size: 19px;
+        color: #7f7f7f;
+        font-family: NerisLight;
+        margin-bottom: 0px;
+}
+
+
+    label{
+        text-align: left;
+    }
+
+    .srating{
+        height: 18px;
+        margin-bottom: 20px;
+        margin-top: 12px;
+    }
+
+    .add-comparison{
+        position: absolute;
+        right: 50px;
+        bottom: 0px;
+
+        @media@1200{
+            right: 20px;
+        }
+    }
+}
+
+    .add-complain{
+        position: absolute;
+        right: 15px;
+        bottom: -90px;
+        width: 30px;
+        opacity: 0.5;
+        .transition(200ms);
+
+        &:hover{
+            .transition(200ms);
+            opacity: 1;
+
+        }
+
+        @media@1200{
+        }
+}
+
+.trigers{
+    position: absolute;
+    right: 15px;
+    top:16px;
+    z-index: 100;
+
+    li{
+        display: inline;
+        margin-left: 7px;
+        cursor: pointer;
+        svg{
+            width: 15px;
+        }
+    }
+}
+
+.blocks-gallery{
+    li{
+        width: 33%;
+        float: left;
+        margin-bottom: 125px;
+
+        div{
+
+            width: 100%;
+            .prev{
+                width: 70%;
+                left: 15%;
+
+
+            }
+        }
+
+        .section-review-block{
+            display: block;
+            height: 110px;
+            overflow: hidden;
+
+            p{
+                margin-bottom: 50px;
+                padding-right: 15px;
+            }
+        }
+
+        .price-block-section{
+            padding-left: 0px;
+        }
+
+        .price-block{
+            label{
+                position: absolute;
+                top:260px;
+                left: 0px;
+            }
+        }
+
+        .price-block-section .add-comparison{
+            position: absolute;
+            top: 253px;
+            height: 40px;
+        }
+    }
+}
+
+.lines-gallery{
+    @media@1200{
+        padding-left:15px;
+    }
+}
+
+.tooltip-arrow{
+    display: none;
+}
+
+.tooltip-inner {
+    padding: 5px 8px;
+}
+
+.zoomContainer{
+    display: none;
+}
+.zoomWindowContainer{
+    display: none;
+}
+
+.lines-icon{
+    fill:#999999;
+    .transition(200ms);
+}
+
+.cd-filter-price input[type='search']{
+    width:49%;
+
+    @media@1200{
+        width: 48.5%;
+    }
+}
+
+.double-column{
+    -moz-column-count: 2; /* Firefox */
+    -webkit-column-count: 2; /* Safari and Chrome */
+    column-count: 2;
+    padding-left: 0px;
+}
+
+.cd-filters.list{
+ padding-left: 0px;
+}
+
+.fixsb{
+ margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+.ratingspan{
+    font-size: 18px;
+    margin-left: 15px;
+    color: #8FA5C5;
+    font-weight: 900;
+}
+
+.nav-pills > li + li {
+    margin-left: 0px;
+}
+
+.divider{
+ border-top:1px solid #EBCD4D;
+    height: 1px;
+    margin-top: -50px;
+
+    h5{
+    text-align: center;
+    margin-top: -12px;
+    font-size: 18px;
+    text-transform: uppercase;
+    background: #fff;
+    width: 380px;
+    margin-left: 50%;
+    margin-left: -190px;
+    left: 50%;
+    position: absolute;
+    }
+}
+
+.bu-product-b{
+    border:1px solid #EBCD4D;
+    /* height: 40px; */
+    padding: 8px 20px 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 15px;
+    color:#333333;
+    .transition(200ms);
+
+    @media@1200{
+      padding: 8px 12px 10px 12px;
+
+    }
+
+    &:hover{
+    .transition(200ms);
+    background: #EBCD4D;
+    }
+}
+
+.bu-product-b::before {
+    content: "Показать ";
+}
+
+.bu-product-b.opened{
+        .transition(200ms);
+        background: #EBCD4D;
+
+        &:hover{
+            .transition(200ms);
+            border:1px solid #EBCD4D;
+            background: #EBCD4D;
+    }
+}
+
+.bu-product-b.opened::before {
+    content: "Скрыть ";
+}
+
+.dn{
+    display: none;
+}
+
+.bad-icon{
+    position: absolute;
+    right: 50px;
+    bottom: -45px;
+
+    span{
+        font-size: 14px;
+        color:#C1272D;
+    }
+
+    img{
+        width: 30px;
+    }
+}
+
+.good-icon{
+    position: absolute;
+    right: 0px;
+    bottom: -45px;
+
+    span{
+        color:#EBCD4D;
+        font-size: 14px;
+    }
+
+    img{
+        width: 30px;
+    }
+}
+
+.zoomWrapper{
+    img{
+        cursor: pointer;
+    }
+}
+
+.fancybox-lock .fancybox-overlay{
+    background: rgba(255,255,255,0.8);
+}
+
+.fancybox-opened .fancybox-skin{
+    background: #fff;
+}
+
+#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
+    background-image: url('../images/fancybox_sprite.png');
+}
+
+.table > thead > tr > th{
+    max-width: 255px;
+
+    label{
+        width: 100%;
+        font-size: 14px;
+        color:#808080;
+        font-weight: 300;
+        font-family: "NerisLight";
+    }
+
+    img{
+        margin-top: 4px;
+        margin-bottom: 10px;
+        width: 100px;
+    }
+    .delet-item{
+        position: absolute;
+        right: 15px;
+        top:25px;
+        width: 30px;
+        position: absolute;
+        right: 20px;
+        top: 15px;
+        width: 15px;
+        cursor: pointer;
+        opacity: 0.4;
+        .transition(200ms);
+
+        &:hover{
+            opacity: 0.8;
+            .transition(200ms);
+
+            }
+        }
+
+    h2{
+        width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-bottom: 5px;
+    }
+}
+
+#fixTable.table>tbody>tr>td{
+    border: none;
+}
+
+#fixTable.table>tbody>tr{
+        .price{
+        font-size: 24px;
+            color:#EBCD4D;
+                font-family: "NerisSemiBold";
+
+            span{
+                    font-family: "NerisLight";
+            }
+    }
+}
+
+.table > thead > tr > th{
+    border: none;
+}
+
+#fixTable.table>tbody>tr>th:first-child{
+    border-right: 1px solid #CCCCCC;
+    width:  200px;
+}
+
+#fixTable.table>thead>tr>th:first-child{
+    border-right: 1px solid #CCCCCC;
+    width:  200px;
+}
+
+#fixTable.table>tbody>tr>td{
+    padding-left: 25px;
+}
+#fixTable.table>thead>tr>th{
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+.table-size{
+ max-height: 1000px;
+}
+
+#fixTable.table > tbody > tr > td{
+        vertical-align: middle;
+        font-family: "NerisLight";
+}
+
+.disc-block{
+    padding: 0px;
+    margin-top: 15px;
+
+    h5{
+        color:#000;
+        font-size: 15px;
+        font-family: "NerisSemiBold";
+        margin-bottom: 15px;
+    }
+
+    p{
+        color:#7F7F7F;
+        font-size: 15px;
+        padding-right: 75px;
+    }
+
+    label{
+        color:#7F7F7F;
+        font-size: 15px;
+        font-family: "NerisLight";
+        font-weight: 300;
+        position: absolute;
+        top: 0px;
+        right: 15px;
+    }
+
+    a{
+        position: absolute;
+        right: 0px;
+        height: 35px;
+        width: 50px;
+        bottom: 0px;
+        outline: none;
+
+        img{
+            width: 35px;
+            cursor: pointer;
+            position: absolute;
+            bottom: 0px;
+            right: 15px;
+            .transition(200ms);
+            opacity: 0.8;
+
+            &:hover{
+                .transition(200ms);
+                opacity: 1;
+            }
+        }
+    }
+
+
+}
+
+
+.bw{
+    background: #fff;
+
+    .row{
+        margin-bottom: 35px;
+    }
+}
+
+.reply-block{
+    height: 155px;
+
+    .checkbox{
+        width: 100%;
+        position: absolute;
+        margin-top: 5px;
+    }
+
+    textarea{
+      overflow: hidden; word-wrap: break-word; resize: none; height: 100px;
+      width:100%;
+      margin-top: 15px;
+      padding: 5px;
+    }
+
+        textarea:focus{
+            border: 1px solid #EBCD4D;
+    }
+
+    input[type="checkbox"]{
+        margin-top: 1px;
+    }
+
+    input[type="submit"]{
+        margin-top: 5px;
+        position: absolute;
+        right: 15px;
+        background: transparent;
+        border: 1px solid #939393;
+        font-size: 15px;
+        color:#4c4c4c;
+        padding: 5px 10px 7px 10px;
+        .transition(200ms);
+        outline: none;
+
+        &:hover{
+            .transition(200ms);
+            background: #EBCD4D;
+        }
+
+        &:focus{
+            .transition(200ms);
+            background: #EBCD4D;
+        }
+    }
+
+    .del-item{
+        position: absolute;
+        right: 25px;
+        top: 25px;
+        width: 15px;
+        cursor: pointer;
+        opacity: 0.4;
+        .transition(200ms);
+
+        &:hover{
+            opacity: 0.8;
+            .transition(200ms);
+
+            }
+        }
+}
+
+.open-reply{
+
+}
+
+.err{
+  margin-top: 20px;
+  color: red;
+}
+
+.mt40{
+margin-top: 40px;
+}
+
+
+.cd-tab-filter{
+
+.make_review-b{
+  border: 1px solid #EBCD4D;
+  border-radius: 5px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 14px;
+  width: 185px;
+  text-align: center;
+  margin-top: 25px;
+  margin-left: 0px;
+  padding: 0px;
+  color: #333;
+  .transition(200ms);
+
+    &:hover{
+    .transition(200ms);
+    background: #EBCD4D;
+    }
+  }
+}
+
+.btn-toolbar{
+  margin-bottom: 50px;
+}
+
+.p-nav{
+width: 160px;
+left: 50%;
+margin-left: -80px;
+position: absolute;;
+bottom: 0px;
+
+  .btn{
+    background: transparent;
+    border: 1px solid #e3e3e3;
+    .transition(200ms);
+
+    &:hover{
+      .transition(200ms);
+      background: @yellow;
+    }
+  }
+  .active{
+    .transition(200ms);
+    background: @yellow;
+  }
+}
+
+.profile-block{
+  background: #fff;
+  margin-bottom: 100px;
+
+  h2{
+    font-size: 16px;
+    color:#000000;
+    font-family: "NerisSemiBold";
+  }
+
+  h3{
+    font-size: 16px;
+    color:#000000;
+    font-family: "NerisSemiBold";
+    margin-bottom: 5px;
+  }
+
+  label{
+    color:#7F7F7F;
+    font-family: "NerisLight";
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  div{
+    height: 45px;
+    line-height: 40px;
+  }
+
+  p{
+    color: #333;
+    font-family: NerisLight;
+    font-size: 15px;
+    line-height: 16px;
+    margin-top: 10px;
+  }
+
+  input{
+    height: 30px;
+    line-height: 30px;
+    width: 200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: #F2F2F2;
+    border: 1px solid #7F7F7F;
+    border-radius: 4px;
+    outline: none;
+  }
+
+  .save-button {
+      background: #ebcd4d;
+      height: 35px;
+      line-height: 31px;
+      width: 150px;
+      font-size: 16px;
+      color: #1a1a1a;
+      margin-top: 15px;
+      font-family: NerisLight;
+      margin-left: 310px;
+
+      @media@1200{
+        margin-left: 260px;
+      }
+  }
+
+
+  .row{
+    margin-bottom: 25px;
+    height: 100%;
+
+    .dropdown-toggle{
+      width: 500px;
+      outline: none;
+      font-size: 16px;
+      margin-left: 40px;
+      background: #F2F2F2;
+      border: 1px solid #7F7F7F;
+      outline: none;
+
+      &:focus{
+        background: #F2F2F2;
+        border: 1px solid #7F7F7F;
+      }
+    }
+
+    .selectpicker{
+      width: 300px;
+      margin-left: 40px;
+    }
+
+    .dropdown-menu {
+      min-height: 200px;
+      min-height: 200px;
+      margin-left: 40px;
+      width: 200px;
+    }
+  }
+
+  .left{
+    text-align: right;
+  }
+
+  .right{
+    text-align: left;
+  }
+
+  img{
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+    margin-top: -5px;
+    .transition(200ms);
+    opacity: 0.8;
+    cursor: pointer;
+
+    &:hover{
+      opacity: 1;
+      .transition(200ms);
+    }
+  }
+}
+
+
+
+/* Cначала обозначаем стили для IE8 и более старых версий
+т.е. здесь мы немного облагораживаем стандартный чекбокс. */
+.checkbox {
+  vertical-align: top;
+  margin: 0 3px 0 0;
+  width: 17px;
+  height: 17px;
+}
+/* Это для всех браузеров, кроме совсем старых, которые не поддерживают
+селекторы с плюсом. Показываем, что label кликабелен. */
+.checkbox + label {
+  cursor: pointer;
+}
+
+/* Далее идет оформление чекбокса в современных браузерах, а также IE9 и выше.
+Благодаря тому, что старые браузеры не поддерживают селекторы :not и :checked,
+в них все нижеследующие стили не сработают. */
+
+/* Прячем оригинальный чекбокс. */
+.checkbox:not(checked) {
+  position: absolute;
+  opacity: 0;
+}
+.checkbox:not(checked) + label {
+  position: relative; /* будем позиционировать псевдочекбокс относительно label */
+  padding: 0 0 0 60px; /* оставляем слева от label место под псевдочекбокс */
+}
+/* Оформление первой части чекбокса в выключенном состоянии (фон). */
+.checkbox:not(checked) + label:before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: 0;
+  width: 50px;
+  height: 26px;
+  border-radius: 13px;
+  background: #CDD1DA;
+  box-shadow: inset 0 2px 3px rgba(0,0,0,.2);
+}
+/* Оформление второй части чекбокса в выключенном состоянии (переключатель). */
+.checkbox:not(checked) + label:after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: 2px;
+  width: 22px;
+  height: 22px;
+  border-radius: 10px;
+  background: #FFF;
+  transition: all .2s; /* анимация, чтобы чекбокс переключался плавно */
+}
+/* Меняем фон чекбокса, когда он включен. */
+.checkbox:checked + label:before {
+  background: #EBCD4D;
+}
+/* Сдвигаем переключатель чекбокса, когда он включен. */
+.checkbox:checked + label:after {
+  left: 26px;
+}
+
+.myshops-block{
+  background: #fff;
+
+  .myshops-nav{
+    padding: 0px;
+    border-right: 1px solid #b3b3b3;
+    padding-top: 25px;
+
+    ul{
+      padding-left: 0px;
+    }
+
+    li{
+      font-size: 16px;
+      line-height: 40px;
+      height: 40px;
+
+      .active{
+        .addshop{
+          display: inline;
+        }
+
+      }
+
+      a{
+        color:#7F7F7F;
+        font-family: "NerisLight";
+      }
+    }
+
+    .addshop{
+      width: 35px;
+      margin-left: 15px;
+      .transition(200ms);
+      opacity: 0.8;
+      cursor: pointer;
+
+      &:hover{
+        .transition(200ms);
+        opacity: 1;
+      }
+
+      &:focus{
+        .transition(200ms);
+        opacity: 1;
+      }
+    }
+
+    .active a{
+      font-weight: 900;
+      color:#000000;
+    }
+  }
+}
+
+.msprofile{
+  margin-bottom: 0px;
+  h2{
+    padding-left: 40px;
+  }
+  label{
+    padding-left: 40px;
+  }
+}
+
+.new-number{
+  display: none;
+}
+
+.form-upload{
+  margin-bottom: 100px;
+  padding-left: 35px;
+  margin-top: 5px;
+
+  input[type=submit]{
+    height: 30px;
+    line-height: 25px;
+    width: 200px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background: #F2F2F2;
+    border: 1px solid #7F7F7F;
+    border-radius: 4px;
+    outline: none;
+    margin-top: 10px;
+  }
+
+}
+
+.link-msp{
+  a{
+    font-size: 16px;
+    color:#7f7f7f;
+    text-decoration: underline;
+    margin-left: 45px;
+
+    &:hover{
+      color:#1a1a1a;
+    }
+  }
+}
+
+
+.msshops{
+    padding-bottom: 75px;
+    padding-top: 25px;
+
+    .row{
+        margin-bottom: 15px;
+        padding-left: 20px;
+    }
+
+    div{
+        height: 35px;
+        line-height: 30px;
+
+        p{
+          font-size: 16px;
+          color:#333333;
+          margin: 0px;
+        }
+
+        a{
+          font-size: 16px;
+          color:#333333;
+          margin: 0px;
+        }
+
+        img{
+          margin-top: 0px;
+          cursor: pointer;
+          width: 35px;
+          opacity: 0.8;
+          .transition(200ms);
+
+          &:hover{
+            opacity: 1;
+            .transition(200ms);
+          }
+        }
+    }
+
+}
+
+
+.add{
+  width: 35px;
+  margin-left: 15px;
+  .transition(200ms);
+  opacity: 0.8;
+  cursor: pointer;
+
+  &:hover{
+    .transition(200ms);
+    opacity: 1;
+  }
+
+  &:focus{
+    .transition(200ms);
+    opacity: 1;
+  }
+}
+
+.balance-block{
+  padding-top: 25px;
+
+  h3{
+    font-size: 35px;
+    font-family: "NerisSemiBold";
+    width: 100%;
+    margin-bottom: 15px;
+
+    span{
+      img{
+        width: 35px;
+        margin-left: 30px;
+        margin-top: -10px;
+        cursor: pointer;
+        opacity: 0.8;
+        .transition(200ms);
+
+        &:hover{
+          opacity: 1;
+          .transition(200ms);
+        }
+      }
+    }
+  }
+
+  div{
+    padding: 0px;
+    margin-bottom: 15px;
+  }
+
+  .linkbalance{
+    width: 100%;
+    font-size: 16px;
+    color:#1a1a1a;
+    font-family: "NerisLight";
+    text-decoration: underline;
+    color:#7f7f7f;
+    padding-right: 35px;
+    outline: none;
+
+    &:hover{
+      color:#1a1a1a;
+    }
+  }
+
+  .pale-link{
+    color:#b3b3b3;
+      pointer-events: none;
+  }
+
+  .bright-link{
+    color:#000;
+  }
+}
+
+.balance-modal{
+    margin-top: 100px;
+
+    ul{
+      text-align: left;
+      margin-left: 50px;
+      li{
+        font-size: 18px;
+        margin-bottom: 15px;
+        cursor: pointer;
+      }
+    }
+
+  p{
+    text-align: right;
+    font-size: 18px;
+    color:#333333;
+    margin-top: 4px;
+    font-family: "NerisLight";
+    text-align: right;
+  }
+
+  input{
+    height: 30px;
+    font-size: 18px;
+    width: 300px;
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: #F2F2F2;
+    border: 2px solid #7f7f7f;
+    border-radius: 4px;
+    outline: 0;
+    background: transparent;
+    color:#000;
+  }
+
+  textarea{
+    font-size: 18px;
+    width: 300px;
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: #F2F2F2;
+    border: 2px solid #7f7f7f;
+    border-radius: 4px;
+    outline: 0;
+    background: transparent;
+    color:#000;
+  }
+
+  .row{
+    margin-bottom: 10px;
+  }
+
+  a{
+    width: 100%;
+    text-align: right;
+    font-size: 18px;
+    color:#333333;
+    margin-top: 4px;
+    font-family: "NerisLight";
+    text-decoration: underline;
+    outline: none;
+
+  }
+
+  .save-button a{
+    background: #ebcd4d;
+    height: 35px;
+    line-height: 31px;
+    padding: 8px 12px 8px 12px;
+    color:#1a1a1a;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px solid #7f7f7f;
+  }
+}
+
+.tc{
+  text-align: center;
+  margin-top: 25px;
+}
+
+
+.pay-list-table{
+  margin-top: 100px;
+
+  table{
+    text-align: center;
+  }
+
+  table > tbody > tr > th{
+    text-align: center;
+
+  }
+}
+
+.report-block{
+  height: 300px;
+  padding: 0px;
+  margin-top: 45px;
+
+  .row{
+      margin-bottom: 25px;
+
+    div{
+      padding: 0px;
+      height: 50px;
+      line-height: 50px;
+      text-align: center;
+
+      p{
+        font-size:16px;
+        color:#000000;
+        font-family: "NerisSemiBold";
+        text-align: left;
+        padding-left: 40px;
+      }
+
+      .report-status{
+        font-family: "NerisLight";
+        position: absolute;
+        right: 0px;
+        top: 25px;
+        font-size: 15px;
+      }
+
+      .catalog-date{
+        font-family: NerisLight;
+        text-align: right;
+        font-size: 15px;
+        height: 10px;
+        margin-top: 5px;
+      }
+
+      a{
+        color:#7f7f7f;
+        font-size: 16px;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+
+      .report-link{
+        position: absolute;
+        left: 40px;
+        top: 25px;
+        font-size: 15px;
+      }
+
+      span{
+        color:#7f7f7f;
+        font-size: 16px;
+      }
+
+      input{
+        width: 50px;
+        margin-right: 35px;
+        margin-left: 10px;
+        height: 30px;
+        line-height: 25px;
+        font-size: 16px;
+        border: 1px solid #7f7f7f;
+        border-radius: 3px;
+        background-color: #f2f2f2;
+        color:#1a1a1a;
+        text-align: center;
+
+      }
+
+      textarea{
+        width: 250px;
+        margin-right: 35px;
+        margin-left: 10px;
+        border: 1px solid #7f7f7f;
+        border-radius: 3px;
+        background-color: #f2f2f2;
+        color:#1a1a1a;
+        text-align: left;
+        font-size: 15px;
+        line-height: 17px;
+        padding-left: 10px;
+      }
+
+      .contract-input{
+        width: 250px;
+        text-align: left;
+        padding-left: 10px;
+      }
+
+      select{
+        width: 150px;
+        margin-right: 35px;
+        margin-left: 10px;
+        height: 30px;
+        border: 1px solid #7f7f7f;
+        border-radius: 3px;
+        background-color: #f2f2f2;
+        color:#1a1a1a;
+        padding-left: 5px;
+      }
+
+      input[type="submit"]{
+        background: #ebcd4d;
+        height: 35px;
+        line-height: 31px;
+        width: 150px;
+        font-size: 16px;
+        color:#1a1a1a;
+        margin-top: 15px;
+        font-family: "NerisLight";
+      }
+
+    }
+  }
+
+  img{
+    height: 40px;
+    margin-top: -5px;
+  }
+
+  .report-icon{
+    position: absolute;
+    left: 0px;
+    margin-top: 4px;
+
+  }
+
+  .hidden-report{
+    display: none;
+  }
+
+  .report-hdden-text{
+    display: none;
+  }
+}
+
+.cd-gallery-fullwidth{
+  width: 100%;
+}
+
+.cd-tab-filter-fullwidth{
+  ul{
+    width: 100%;
+    margin-left: 0px;
+  }
+}
+.cd-tab-filter-fullwidth{
+  a{
+    text-transform: none;
+  }
+
+  a.selected{
+      color:#1a1a1a;
+      font-family: "NerisSemiBold";
+  }
+}
+
+.checkbox-reviews{
+  label{
+    margin-left: 155px;
+    font-weight: 300;
+  }
+
+  input[type=checkbox]{
+    position: absolute;
+    left: 150px;
+    margin-top: 2px;
+  }
+}
+.checkbox:not(checked){
+  opacity: 0;
+}
+
+.cntrl-block{
+  position: absolute;
+  right: 0px;
+  top:0px;
+
+  img{
+    width: 35px;
+    margin-top: 15px;
+    opacity: 0.8;
+    .transition(200ms);
+
+    &:hover{
+      opacity: 1;
+      .transition(200ms);
+    }
+  }
+}
+
+.mydiscussions{
+  margin-top: 30px;
+  text-align: left;
+
+  .row{
+    margin-bottom: 25px;
+  }
+
+  .left{
+    overflow: hidden;
+    a{
+      color:#4d4d4d;
+      font-family: "NerisSemiBold";
+      font-size:17px;
+
+    }
+  }
+
+  .middle{
+    p{
+      color:#7f7f7f;
+      font-size: 15px;
+    }
+  }
+
+  .right{
+    a{
+      text-decoration: underline;
+      color:#7f7f7f;
+      font-size: 15px;
+    }
+  }
+}
+
+.use-modal{
+  margin-top: 100px;
+
+
+  p{
+    font-size: 18px;
+    color:#333333;
+    margin-top: 4px;
+    font-family: "NerisLight";
+    text-align: center;
+    margin-bottom: 35px;
+  }
+
+  a{
+    font-size: 18px;
+    color:#333333;
+    margin-top: 4px;
+    font-family: "NerisLight";
+    text-align: center;
+    text-decoration: underline;
+    margin-left: 180px;
+  }
+}
+
+.offers-block{
+
+  .row{
+    margin-bottom: 25px;
+  }
+
+  div{
+    position: relative;
+  }
+
+  .offers-img{
+    width: 70%;
+    margin-left: 10%;
+  }
+
+  h2{
+    font-size: 22px;
+    font-family: NerisLight;
+    font-weight: 700;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-decoration: underline;
+    padding: 0;
+    margin: 5px 0;
+    color: #1a1a1a;
+    padding-top: 20px;
+  }
+
+  h3{
+    font-size: 18px;
+    color: #7f7f7f;
+    font-family: NerisLight;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 7px 0 20px;
+  }
+
+  p{
+    font-size: 16px;
+    color: #7f7f7f;
+    font-family: NerisLight;
+    width: 50%;
+    float: left;
+    width: 50%;
+  }
+
+  .offer-status{
+    width: 100%;
+    text-align: right;
+    padding-top: 25px;
+    margin-bottom: 0px;
+    font-size: 16px;
+  }
+
+  label {
+    font-size: 30px;
+    color: #ebcd4d;
+    font-family: NerisSemiBold;
+    text-align: right;
+    width: 100%;
+    cursor: pointer;
+
+    span{
+    font-family: NerisLight;
+    font-weight: 300;
+    }
+  }
+
+  .cntrl-block-offers{
+    text-align: right;
+    margin-top: 5px;
+    margin-bottom: 15px;
+
+    img{
+      width: 35px;
+      margin-left: 8px;
+      opacity: 0.8;
+      .transition(200ms);
+
+      &:hover{
+        opacity: 1;
+        .transition(200ms);
+      }
+    }
+  }
+}
+
+.add-offer-block{
+  height: 50px;
+  border: 1px dotted #E6E6E6;
+      .transition(200ms);
+
+  &:hover{
+      border: 1px dotted #4c4c4c;
+      .transition(200ms);
+
+      p{
+        color:#1a1a1a;
+      }
+
+      img{
+        opacity: 1;
+      }
+  }
+
+  img{
+    height: 52px;
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    opacity: 0.8;
+    .transition(200ms);
+  }
+
+  p{
+    height: 50px;
+    line-height: 47px;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    .transition(200ms);
+  }
+}
+
+
+
+#msprofile{
+  .save-button {
+      margin-left: 225px;
+
+      @media@1200{
+        margin-left: 180px;
+      }
+  }
+}
+
+.rewiev-reply-icon{
+  height: 35px;
+  cursor: pointer;
+}
+
+.city-picker{
+  font-size: 16px;
+width: 500px;
+margin-left: 25px;
+}
+
+
+.change-shop{
+  cursor: pointer;
+  font-size: 18px;
+  color: #000;
+  font-family: NerisLight;
+  margin-bottom: 5px;
+  margin-left: 38px;
+  font-style: italic;
+}
