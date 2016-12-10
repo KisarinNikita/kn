@@ -1,3 +1,29 @@
+$(document).ready(function() {
+  $('.item_checkbox').each(function(){
+      var checkbox = $(this).find('input[type=radio]');
+      if(checkbox.prop("checked")) $(this).addClass("check_active");
+  });
+
+  $('.item_checkbox').click(function(){
+      var checkbox = $(this).find('input[type=radio]');
+      if(checkbox.prop("checked")){
+          $(this).removeClass("check_active");
+          checkbox.prop("checked", false);
+      }else{
+          $(this).addClass("check_active");
+          checkbox.prop("checked", true);
+      }
+  });
+});
+
+
+$(document).ready(function() {
+  $(".hidden-number").click(function(){
+    $(this).css('display','none')
+  });
+});
+
+
 
 $(document).ready(function() {
   $(".open-modal-shop").click(function(){

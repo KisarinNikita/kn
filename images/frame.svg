@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 16.5 15.2" style="enable-background:new 0 0 16.5 15.2;" xml:space="preserve">
+	 viewBox="0 0 308.6 92.3" style="enable-background:new 0 0 308.6 92.3;" xml:space="preserve">
 <style type="text/css">
 	.st0{opacity:0.45;}
 	.st1{fill:none;stroke:#BCA3A0;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;}
@@ -47,16 +47,7 @@
 </g>
 <g id="main">
 	<g id="add">
-	</g>
-	<g>
-		<line class="st28" x1="2.5" y1="1.9" x2="10.5" y2="1.9"/>
-		<line class="st28" x1="0.5" y1="1.9" x2="0.8" y2="1.9"/>
-		<line class="st28" x1="0.5" y1="8.2" x2="0.8" y2="8.2"/>
-		<line class="st28" x1="0.5" y1="14.5" x2="0.8" y2="14.5"/>
-		<line class="st28" x1="14.6" y1="0.5" x2="14.6" y2="3.2"/>
-		<line class="st28" x1="16" y1="1.9" x2="13.3" y2="1.9"/>
-		<line class="st28" x1="2.5" y1="14.5" x2="16" y2="14.5"/>
-		<line class="st28" x1="2.5" y1="8.2" x2="16" y2="8.2"/>
+		<polygon class="st17" points="265.9,91.3 1,91.3 1,1 265.9,1 307.2,48.2 		"/>
 	</g>
 </g>
 <g id="help">

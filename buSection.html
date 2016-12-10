@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html class="chrome">
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="960px">
+      <title>Крохе надо</title>
+      <link href="css/bootstrap.css" rel="stylesheet">
+      <link href="css/normalize.css" rel="stylesheet">
+      <link href="css/slick.css" rel="stylesheet">
+      <link href="css/reset.css" rel="stylesheet">
+      <link href="css/fstyle.css" rel="stylesheet">
+      <link href="css/jquery.fancybox.css" rel="stylesheet">
+      <link rel="stylesheet/less" type="text/css" href="css/style.less">
+      <link href="css/style.css" rel="stylesheet">
+      <script src="http://code.jquery.com/jquery-latest.js"></script>
+      <script src="js/bootstrap.js"></script>
+      <script src="js/jquery.fancybox.js"></script>
+      <script src="js/jquery.mixitup.min.js"></script>
+      <script src="js/tableHeadFixer.js"></script>
+      <script src="js/slick.js"></script>
+      <script type="text/javascript" src="js/jquery.ez-plus.js"></script>
+      <script src="js/fmain.js"></script>
+      <script src="js/main.js"></script>
+    </head>
+
+    <body>
+
+		<div class="container box main-menu">
+			<div class="col-xs-2">
+        <a href="index.html">
+          <img src="images/kn_logo.svg">
+        </a>
+			</div>
+			<div class="col-xs-7 bu-menu">
+  			<ul>
+          <li>
+            <a href="index.html">
+              <img class="gokn" src="img/go_kn.svg">
+            </a>
+          </li>
+  				<li>
+  					<a href="#">Форум</a>
+  				</li>
+  				<li>
+  					<a href="#">Полезно</a>
+  				</li>
+  			</ul>
+			</div>
+
+			<div class="col-xs-2 col-xs-offset-1 icons-menu">
+				<a href="#" class="col-xs-4" data-toggle="modal" data-target=".modal_city" rel="tooltip" data-placement="bottom" title="Город">
+					<img src="images/place.svg">
+				</a>
+				<a href="#" class="col-xs-4" rel="tooltip" data-placement="bottom" title="Личный кабинет">
+					<img src="images/profile.svg">
+				</a>
+				<a href="#" class="col-xs-4" rel="tooltip" data-placement="bottom" title="Добавить в сравнение">
+					<img src="images/bag_menu.svg">
+				</a>
+			</div>
+		</div>
+
+    <div class="container box">
+      <a href="#" class="col-xs-12 add-bu-button">
+        Добавить объявление
+      </a>
+    </div>
+
+    <div class="container box bu-search">
+      <input placeholder="Поиск по объявлениям" type="text" class="col-xs-10">
+      <input type="submit" class="col-xs-2" value="Найти">
+    </div>
+
+    <div class="container box bu-filter">
+      <div class="col-xs-12">
+        <ol class="breadcrumb breadcrumb-filter zero-padding">
+          <li><a href="#">Все<span>&nbsp;255</span></a></li>
+          <li class="active"><a href="#">Передвижение<span>&nbsp;300</span></a></li>
+        </ol>
+      </div>
+      <div class="col-xs-12">
+        <ol class="breadcrumb-filter-underline zero-padding">
+          <li><a href="">Питание<span>&nbsp;&nbsp;255</span></a></li>
+          <li><a href="">Гигиена<span>&nbsp;&nbsp;2</span></a></li>
+          <li><a href="">Дом<span>&nbsp;&nbsp;17</span></a></li>
+          <li><a href="">Одежда<span>&nbsp;&nbsp;3000</span></a></li>
+          <li><a href="">Питание<span>&nbsp;&nbsp;255</span></a></li>
+          <li><a href="">Гигиена<span>&nbsp;&nbsp;2</span></a></li>
+          <li><a href="">Дом<span>&nbsp;&nbsp;17</span></a></li>
+          <li><a href="">Одежда<span>&nbsp;&nbsp;3000</span></a></li>
+          <li><a href="">Питание<span>&nbsp;&nbsp;255</span></a></li>
+          <li><a href="">Гигиена<span>&nbsp;&nbsp;2</span></a></li>
+          <li><a href="">Дом<span>&nbsp;&nbsp;17</span></a></li>
+          <li><a href="">Одежда<span>&nbsp;&nbsp;3000</span></a></li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="container box cd-main-content">
+      <div class="cd-tab-filter-wrapper toplinefilter">
+        <div class="cd-tab-filter bu-tab-filter">
+        	<ul class="cd-filters">
+            <li>Сортировка:</li>
+        		<li class="filter"><a class="selected" href="#0" data-type="all">Показать все</a></li>
+        		<li class="filter" data-filter=".color-2"><a href="#0" data-type="color-2">По цене</a></li>
+        		<li class="filter" data-filter=".color-3"><a href="#0" data-type="color-3">По дате</a></li>
+        	</ul> <!-- cd-filters -->
+        </div> <!-- cd-tab-filter -->
+      </div> <!-- cd-tab-filter-wrapper -->
+
+
+      <section class="cd-gallery cd-gallery-bu section-gallery lines-gallery blocks-gallery">
+
+        <ul>
+          <li class="mix color-1 check1 radio2 option3">
+            <div class="col-xs-3">
+              <a href="#"><img class="prev" src="images/small/i1.jpg"></a>
+            </div>
+            <div class="col-xs-5 price-block price-block-section pbsbu">
+              <h5>Средсва для купания</h5>
+              <a href="#">  <h2>Sonar Cabrita</h2></a>
+              <label onclick="location.href='#'">14 521<span>р</span></label>
+              <a  href="#" class="premium" rel="tooltip" data-placement="right" title="Премиум размещение">
+                <img src="images/premium.svg">
+              </a>
+              <span class="date views-line-bu">11.12.2016</span>
+              <a  href="#" class="add-comparison-bu" rel="tooltip" data-placement="top" title="В сравнение">
+                <img src="images/add-c.svg">
+              </a>
+            </div>
+            <div class="col-xs-4 section-review-block zero-padding">
+              <p>Коляска прогулочная<br>
+                      механизм "трость", складывается одной рукой<br>
+                      4 колеса<br>
+                      рекомендуемый возраст до 3 лет<br>
+                      установка на шасси автокресла
+              </p>
+            </div>
+          </li>
+
+          <li class="mix color-1 check1 radio2 option3">
+            <div class="col-xs-3">
+              <a href="#"><img class="prev" src="images/small/i1.jpg"></a>
+            </div>
+            <div class="col-xs-5 price-block price-block-section pbsbu">
+              <h5>Средсва для купания</h5>
+              <a href="#">  <h2>Sonar Cabrita</h2></a>
+              <label onclick="location.href='#'">14 521<span>р</span></label>
+              <span class="date views-line-bu">11.12.2016</span>
+              <a  href="#" class="add-comparison-bu" rel="tooltip" data-placement="top" title="В сравнение">
+                <img src="images/add-c.svg">
+              </a>
+            </div>
+            <div class="col-xs-4 section-review-block zero-padding">
+              <p>Коляска прогулочная<br>
+                      механизм "трость", складывается одной рукой<br>
+                      4 колеса<br>
+                      рекомендуемый возраст до 3 лет<br>
+                      установка на шасси автокресла
+              </p>
+            </div>
+          </li>
+        </ul>
+
+        <div class="btn-toolbar col-xs-12">
+          <div class="btn-group p-nav">
+          <button class="btn active">1</button>
+          <button class="btn">2</button>
+          <button class="btn">3</button>
+          <button class="btn">4</button>
+          </div>
+        </div>
+
+        <div class="cd-fail-message">Нет результатов</div>
+      </section> <!-- cd-gallery -->
+    </div>
+
+		<div class="container box banner">
+			<a href="#">
+				<img src="images/banner1.jpg">
+			</a>
+		</div>
+
+
+
+    </body>
+</html>
