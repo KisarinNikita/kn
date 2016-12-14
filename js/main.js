@@ -1,18 +1,24 @@
 $(document).ready(function() {
-  $('.item_checkbox').each(function(){
-      var checkbox = $(this).find('input[type=radio]');
-      if(checkbox.prop("checked")) $(this).addClass("check_active");
+  $(".checkbu").click(function(){
+    if (this.checked) {
+      $('.shadowbu').css('display','none');
+    }
   });
 
-  $('.item_checkbox').click(function(){
-      var checkbox = $(this).find('input[type=radio]');
-      if(checkbox.prop("checked")){
-          $(this).removeClass("check_active");
-          checkbox.prop("checked", false);
-      }else{
-          $(this).addClass("check_active");
-          checkbox.prop("checked", true);
-      }
+});
+
+
+$(document).ready(function() {
+  $(".cat-finish").click(function(){
+    $('.shadowgoods').css('display','none')
+  });
+
+  $(".goods-finish").click(function(){
+    $('.shadowbu').css('display','none')
+  });
+
+  $(".all_options").click(function(){
+    $('.product-mini-preview-text').css('max-height','100%').css('overflow','visible');
   });
 });
 
@@ -22,8 +28,6 @@ $(document).ready(function() {
     $(this).css('display','none')
   });
 });
-
-
 
 $(document).ready(function() {
   $(".open-modal-shop").click(function(){

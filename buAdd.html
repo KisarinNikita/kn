@@ -22,6 +22,7 @@
       <script src="js/slick.js"></script>
       <script src="js/bootstrap-select.js"></script>
       <script type="text/javascript" src="js/jquery.ez-plus.js"></script>
+      <script src="js/custom-file-input.js"></script>
       <script src="js/fmain.js"></script>
       <script src="js/main.js"></script>
     </head>
@@ -31,7 +32,7 @@
 		<div class="container box main-menu">
 			<div class="col-xs-2">
         <a href="index.html">
-          <img src="images/kn_logo.svg">
+          <img src="images/knbu_logo.svg">
         </a>
 			</div>
 			<div class="col-xs-7 bu-menu">
@@ -62,6 +63,26 @@
 				</a>
 			</div>
 		</div>
+
+    <div class="container box">
+      <a href="buAdd.html" class="col-xs-12 add-bu-button">
+        Добавить объявление
+      </a>
+    </div>
+
+    <div class="container box bu-search">
+      <input placeholder="Поиск по объявлениям" type="text" class="col-xs-10">
+      <input type="submit" class="col-xs-2" value="Найти">
+    </div>
+
+    <div class="container box bu-filter">
+      <div class="col-xs-12">
+        <ol class="breadcrumb breadcrumb-filter zero-padding">
+          <li><a href="#">Все<span>&nbsp;255</span></a></li>
+          <li class="active"><a href="#">Передвижение<span>&nbsp;300</span></a></li>
+        </ol>
+      </div>
+    </div>
 
     <div class="container box profile-block">
       <h2>Контактная информация</h2>
@@ -100,33 +121,267 @@
           <input type="text" value="mail@mail.ru">
         </div>
       </div>
+    </div>
+
+    <div class="container box addbu_block mt-115">
       <h2>Выберите категорию</h2>
       <div class="row">
         <div class="col-xs-3 bucat-item">
-          <div class="filter-item">
-            <p>Выберите бренд</p>
-            <div class="item_checkbox">
-              <span>
-                <input type="radio" name="raz" />
-                <label>Shinglas</label>
-              </span>
+          <ul>
+            <li>
+              <input type="radio" id="f-option" name="selector">
+              <label for="f-option">Питание</label>
+            </li>
+            <li>
+              <input type="radio" id="a-option" name="selector">
+              <label for="a-option">Гигиена</label>
+            </li>
+            <li>
+              <input type="radio" id="b-option" name="selector">
+              <label for="b-option">Дом</label>
+            </li>
+            <li>
+              <input type="radio" id="c-option" name="selector">
+              <label for="c-option">Одежда</label>
+            </li>
+            <li>
+              <input type="radio" id="d-option" name="selector">
+              <label for="d-option">Обувь</label>
+            </li>
+            <li>
+              <input type="radio" id="e-option" name="selector">
+              <label for="e-option">Дом</label>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-3 bucat-item">
+          <ul>
+            <li>
+              <input type="radio" id="i-option" name="selector1">
+              <label for="i-option">Передвижение</label>
+            </li>
+            <li>
+              <input type="radio" id="j-option" name="selector1">
+              <label for="j-option">Одежда</label>
+            </li>
+            <li>
+              <input type="radio" id="h-option" name="selector1">
+              <label for="h-option">Обувь</label>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-3 bucat-item cat-finish">
+          <ul>
+            <li>
+              <input type="radio" id="k-option" name="selector2">
+              <label for="k-option">Передвижение</label>
+            </li>
+            <li>
+              <input type="radio" id="l-option" name="selector2">
+              <label for="l-option">Одежда</label>
+            </li>
+            <li>
+              <input type="radio" id="m-option" name="selector2">
+              <label for="m-option">Обувь</label>
+            </li>
+            <li>
+              <input type="radio" id="o-option" name="selector2">
+              <label for="o-option">Передвижение</label>
+            </li>
+            <li>
+              <input type="radio" id="p-option" name="selector2">
+              <label for="p-option">Одежда</label>
+            </li>
+            <li>
+              <input type="radio" id="m-option" name="selector2">
+              <label for="m-option">Обувь</label>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container box addbu_block">
+      <div class="shadowgoods">
+      </div>
+      <h2>Выберите товар</h2>
+      <div class="row">
+        <div class="col-xs-3 bucat-item">
+          <ul>
+            <li>
+              <input type="radio" id="f-options" name="selectors">
+              <label for="f-options">Samsung</label>
+            </li>
+            <li>
+              <input type="radio" id="a-options" name="selectors">
+              <label for="a-options">LG</label>
+            </li>
+            <li>
+              <input type="radio" id="b-options" name="selectors">
+              <label for="b-options">Sony</label>
+            </li>
+            <li>
+              <input type="radio" id="c-options" name="selectors">
+              <label for="c-options">Lenovo</label>
+            </li>
+            <li>
+              <input type="radio" id="d-options" name="selectors">
+              <label for="d-options">MSI</label>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-3 bucat-item goods-finish">
+          <ul>
+            <li>
+              <input type="radio" id="i-options" name="selectors1">
+              <label for="i-options">модель1</label>
+            </li>
+            <li>
+              <input type="radio" id="j-options" name="selectors1">
+              <label for="j-options">модель2</label>
+            </li>
+            <li>
+              <input type="radio" id="h-options" name="selectors1">
+              <label for="h-options">модель 3</label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 checkbu-block">
+          <label>
+            <input class="checkbu" type="checkbox" value=""><span>Я не знаю названия моей модели</span>
+          </label>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container box addinfo_bu">
+        <div class="shadowbu">
+        </div>
+        <div class="col-xs-3 left">
+          <p>Название</p>
+        </div>
+        <div class="col-xs-9 right">
+          <input type="text" value="???">
+        </div>
+        <div class="col-xs-3">
+          <p>Описание модели</p>
+        </div>
+        <div class="col-xs-9">
+          <textarea rows="10" cols="10"></textarea>
+        </div>
+        <div class="col-xs-3 left">
+          <p>Цена</p>
+        </div>
+        <div class="col-xs-9 right">
+          <input type="text">
+        </div>
+
+        <div class="col-xs-3 left">
+          <p>Фото</p>
+        </div>
+        <div class="col-xs-9 right loadblock">
+					<input type="file" name="file-3[]" id="file-3" class="inputfile inputfile-3" data-multiple-caption="{count} files selected" multiple />
+					<label for="file-3">
+          <img src="images/loadphoto.svg">
+          <span>Выберите файл&hellip;</span></label>
+        </div>
+    </div>
+
+    <div class="container box type_bu">
+      <h2>Размещение</h2>
+      <div class="row">
+        <ul class="col-xs-3 col-xs-offset-1 type_bu-title" role="tablist">
+        <li role="presentation" class="active">
+          <a href="#bu_pay" role="tab" data-toggle="tab" aria-controls="profile" aria-expanded="false">
+                Платное
+          </a>
+        </li>
+        <li role="presentation">
+          <a href="#bu_dontpay" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">
+              Бесплатное
+           </a>
+        </li>
+        </ul>
+      </div>
+
+      <div class="row">
+      <div class="col-xs-7 col-xs-offset-1 type-bu-block">
+        <div class="tab-content">
+      		<div class="tab-pane fade active in bupay_block"  id="bu_pay" role="tabpanel" aria-labelledby="home-tab">
+          <p>Выберите тип размещения:</p>
+          <div class="col-xs-6 radiocheck spec" style="margin-top:10px;">
+            <input type="radio" id="x-options" name="select1">
+            <label for="x-options">Спец. размещение</label>
+            <p>Без применения дополнительных услуг Avito поиск коляски может занять меньше времени.</p>
+            <h5>Стоимость: <span>200</span> руб.</h5>
+          </div>
+          <div class="col-xs-6 radiocheck prem" style="margin-top:10px;">
+            <input type="radio" id="z-options" name="select1">
+            <label for="z-options">Премиум размещение</label>
+            <p>Без применения дополнительных услуг Avito поиск коляски может занять меньше времени. Без применения дополнительных услуг Avito поиск коляски может занять меньше времени.</p>
+            <h5>Стоимость: <span>300</span> руб.</h5>
+          </div>
+            <div class="col-xs-4">
+              <label>Ведите код с картинки</label>
             </div>
-            <div class="item_checkbox">
-              <span>
-                <input type="radio" name="raz" />
-                <label>Tilercat</label>
-              </span>
+            <div class="col-xs-4">
+              <input type="text">
             </div>
-            <div class="item_checkbox">
-              <span>
-                <input type="radio" name="raz" />
-                <label>Shinglas</label>
-              </span>
+            <div class="col-xs-4">
+              <img src="images/capcha.png">
+            </div>
+            <div class="col-xs-12" style="text-align:center;">
+              <input type="submit" value="Продолжить">
+            </div>
+
+
+              <p class="hint">Ваше объявление создано, но ещё не активировано. Для активации примените выбранный вами пакет услуг</p>
+              <p>Выберите способ оплаты:</p>
+              <div class="col-xs-6 radiocheck spec" style="margin-top:10px;">
+                <input type="radio" id="zx-options" name="select2">
+                <label for="zx-options">Оплата 1</label>
+              </div>
+              <div class="col-xs-6 radiocheck prem" style="margin-top:10px;">
+                <input type="radio" id="xz-options" name="select2">
+                <label for="xz-options">Оплата 2</label>
+              </div>
+              <div class="col-xs-6 radiocheck spec" style="margin-top:10px;">
+                <input type="radio" id="zz-options" name="select2">
+                <label for="zz-options">Оплата 1</label>
+              </div>
+              <div class="col-xs-6 radiocheck prem" style="margin-top:10px;">
+                <input type="radio" id="xx-options" name="select2">
+                <label for="xx-options">Оплата 2</label>
+              </div>
+              <div class="col-xs-12" style="text-align:center;">
+                <input type="submit" value="Оплатить">
+              </div>
+          </div>
+      		<div class="tab-pane fade bupay_block" id="bu_dontpay" aria-labelledby=" profile-tab"  role="tabpanel">
+            <p>Без применения дополнительных услуг Avito поиск коляски может занять больше времени.</p>
+            <div class="col-xs-4">
+              <label>Ведите код с картинки</label>
+            </div>
+            <div class="col-xs-4">
+              <input type="text">
+            </div>
+            <div class="col-xs-4">
+              <img src="images/capcha.png">
+            </div>
+            <div class="col-xs-12" style="text-align:center;">
+              <input type="submit" value="Опубликовать">
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
+
+
+
 
 
 
